@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>back ground rain effect</title>
+
+
+
+
+   <style>
+
+*{margin: o; padding: 0;}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bgimage.jpg);
+    background-size: 100% 100%;
+}
+
+.effect{
+    
+    height: 100vh;
+   background-image:  url(raining.jpeg);
+
+    
+    animation: rain .3s linear infinite;
+}
+
+@keyframes rain{
+
+    from{background-position: 0% 0%;}
+    to{background-position: 20% 100%;}
+    
+    
+   </style>
+</head>
+
+
+
+
+
+<body>
+    <div class="main">
+        <div class="effect"></div>
+    </div>
+    
+</body>
+</html>
